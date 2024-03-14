@@ -1,10 +1,13 @@
 import { Button } from "@radix-ui/themes";
+import Link from "next/link";
 import React from "react";
 
-const page = () => {
-   return <Button>
-      redix ui
-   </Button>;
+const IssuesPage = () => {
+   return (
+      <Button>
+         <Link href="/issues/new">New Issue</Link>
+      </Button>
+   );
 };
 
-export default page;
+export default IssuesPage;
