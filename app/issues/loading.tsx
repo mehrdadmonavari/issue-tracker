@@ -25,13 +25,13 @@ const LoadingIssuesPage = () => {
                {issues.map((issue) => (
                   <Table.Row key={issue}>
                      <TableCell>
-                        <Skeleton />
+                        <Skeleton height="18px" />
                      </TableCell>
                      <TableCell className="hidden md:table-cell">
-                        <Skeleton />
+                        <Skeleton height="18px" />
                      </TableCell>
                      <TableCell className="hidden md:table-cell">
-                        <Skeleton />
+                        <Skeleton height="18px" />
                      </TableCell>
                   </Table.Row>
                ))}
