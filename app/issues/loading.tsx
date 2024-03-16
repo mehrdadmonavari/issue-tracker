@@ -1,9 +1,9 @@
 import { Table, TableCell } from "@radix-ui/themes";
 import Skeleton from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
-import IssueToolBar from "./IssueToolBar";
+import IssueToolBar from "./IssuesToolBar";
 
-const LoadingIssuePage = () => {
+const LoadingIssuesPage = () => {
    const issues = [1, 2, 3, 4, 5];
 
    return (
@@ -41,4 +41,4 @@ const LoadingIssuePage = () => {
    );
 };
 
-export default LoadingIssuePage;
+export default LoadingIssuesPage;
