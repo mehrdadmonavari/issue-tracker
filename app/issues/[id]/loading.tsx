@@ -8,7 +8,7 @@ const LoadingIssueDetailPage = () => {
    return (
       <Box>
          <Heading>
-            <Skeleton width="60rem" />
+            <Skeleton width="40rem" />
          </Heading>
          <Flex className="space-x-3" my="2">
             <Skeleton width="5rem" />
